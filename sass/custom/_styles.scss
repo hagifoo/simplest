@@ -1,0 +1,29 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+
+article {
+  header {
+    h1 {
+      a {
+        font-size: 0.8em;
+        &:hover { text-decoration: none; }
+      }
+    }
+    h1.entry-title {
+        font-size: 1.5em;
+    }
+  }
+}
+
+body>nav li+li {
+  border-left: none;
+}
+
+#blog-archives {
+  h1 {
+    font-size: 1.1em;
+  }
+  time {
+    top: 1.3em;
+  }
+}
