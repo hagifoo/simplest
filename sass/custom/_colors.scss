@@ -6,6 +6,7 @@ $accent-color: #0B346E;
 $bg-color: #fdfdfd;
 $border-color: #ddd;
 $link-color: fade-out($accent-color, 0.2) !default;
+$link-color-visited: fade-in($accent-color, 0.2) !default;
 
 $title-color: fade-out($accent-color, 0.2) !default;
 $subtitle-color: darken($border-color, 20);

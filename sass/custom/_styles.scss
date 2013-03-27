@@ -2,6 +2,12 @@
 // Add styles here to make changes without digging in too much
 
 article {
+  a {
+    text-decoration: none;
+      :hover {
+        text-decoration: none;
+    }
+  }
   header {
     h1 {
       a {
