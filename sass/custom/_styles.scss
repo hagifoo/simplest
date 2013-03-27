@@ -33,3 +33,11 @@ body>nav li+li {
     top: 1.3em;
   }
 }
+
+div.footnotes {
+  font-size: 0.8em;
+  border-top: solid 1px;
+  border-color: $border-color;
+  margin-top: 20px;
+  padding-top: 20px;
+}
