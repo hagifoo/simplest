@@ -95,6 +95,7 @@ article + article {
     font-size: 2.2em;
     a { color: inherit; &:hover { color: $link-color-hover; } }
   }
+  /*
   a[rel=full-article] {
     background: darken($main-bg, 5);
     display: inline-block;
@@ -110,6 +111,7 @@ article + article {
       color: $main-bg;
     }
   }
+  */
   footer {
     @extend .sans;
     margin-top: 1em;
